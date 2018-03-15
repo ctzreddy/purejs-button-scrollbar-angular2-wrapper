@@ -1,0 +1,34 @@
+<div class="menu-wrapper">
+	<ul class="menu" id="menu">
+		<li class="item">1</li>
+		<li class="item">2</li>
+		<li class="item">3</li>
+		<li class="item">4</li>
+		<li class="item">5</li>
+		<li class="item">6</li>
+		<li class="item">7</li>
+		<li class="item">8</li>
+		<li class="item">9</li>
+		<li class="item">10</li>
+		<li class="item">11</li>
+		<li class="item">12</li>
+	</ul>
+
+	<div class="paddles">
+		<button class="left-paddle paddle hidden" (click)="leftPaddleClick()">
+			< </button>
+				<button class="right-paddle paddle" (click)="rigthPaddleClick()">
+					>
+				</button>
+	</div>
+</div>
+
+
+<div class="print">
+	<span></span> Wrapper / visible menu size: {{menuWrapperSize}}</div>
+<div class="print">
+	<span></span> Total menu size: {{menuSize}}</div>
+<div class="print">
+	<span></span> Invisible menu size: {{menuInvisibleSize}}</div>
+<div class="print">
+	<span></span> Scroll position: {{menuPosition}}</div>
